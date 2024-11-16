@@ -1,0 +1,76 @@
+.todo-container{
+    background-color:rgb(59, 25, 90);
+    margin: 100px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.2);
+}
+.head{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-container{
+    background-color:rgb(59, 25, 90) ;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 30px ;
+    border: 2px solid red;
+    align-items: center;
+}
+.input{
+    font-size: 1rem;
+    font-weight:bold ;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.add-btn{
+    border-radius: 20px;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    background-color: rgb(220, 53, 69);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.add-btn:hover{
+    background-color: rgb(200, 45, 60);
+}
+.list-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius:8px ;
+    margin:10px 0 ;
+    border: 1px solid rgba(255,255 ,255 ,0.2);
+    color: aliceblue;
+    font-size:1rem ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.delete-btn{
+    background-color: rgb(220, 53, 63);
+    color:white ;
+    border: none;
+    padding: 5px 10px;
+    font-size:0.9rem ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.delete-btn:hover{
+    background-color: rgb(200,45,60);
+    transform: scale(1.05);
+}
